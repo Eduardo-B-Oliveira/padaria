@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+nav .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-list li {
+    margin: 0 20px;
+}
+
+nav .nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav .nav-list a:hover {
+    color: orange;
+    border-radius: 5px;
+}
+
+.Pão {
+    width: 100%;          
+    height: 100vh;        
+    object-fit: cover;    
+}
+
+.imagem-container {
+    position: relative; 
+}
+
+.texto-sobre-imagem {
+    position: absolute; 
+    top: 20%;            
+    left: 50%;           
+    transform: translate(-50%, -50%); 
+    color: white;        
+    text-align: center;  
+    font-size: 2em;      
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.Promoçãosemanal {
+    text-align: center;
+}
+
+.Promoção {
+    display: flex;          
+    justify-content: space-between; 
+}
+
+.retangulo {
+    width: 30%;              
+    height: 150px;           
+    background-color: whitesmoke; 
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    color: black;            
+    font-size: 1.5em;        
+    border-radius: 10px;     
+}
+
+p {
+    margin: 0;               
+}
+
+
+.Servisos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto auto auto;   
+    gap: 20px;                             
+    width: 70%;                            
+    max-width: 700px;                      
+}
+
+.retangulo2 {
+    height: 150px;          
+    background-color: orange; 
+    display: flex;         
+    justify-content: center; 
+    align-items: center;     
+    color: whitesmoke;            
+    font-size: 1.5em;       
+    border-radius: 10px;    
+}
+
+p {
+    margin: 0;              
+}
+
+.container-imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas para as imagens */
+    gap: 20px;
+    width: 30%; /* Largura da container das imagens */
+}
+
+.retangulo {
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.imagem {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#teste{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+
+footer div{
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 0;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
